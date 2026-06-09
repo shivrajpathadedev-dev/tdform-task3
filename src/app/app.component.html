@@ -34,7 +34,7 @@
               <strong class="text-danger" *ngIf="mobilenumber.touched && mobilenumber.hasError('required')">
                 Mobile Number is required!.
               </strong>
-              <strong class="text-danger" *ngIf="mobilenumber.touched && mobilenumber.hasError('pattern')">
+              <strong class="text-danger" *ngIf="mobilenumber.dirty && mobilenumber.hasError('pattern')">
                 Mobile Pattern is required!.
               </strong>
             </div>
